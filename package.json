@@ -31,6 +31,15 @@
     "@types/node": "^18.0.0",
     "typescript": "next"
   },
+  "overrides": {
+    "typescript": "next",
+    "@angular/build": {
+      "typescript": "next"
+    },
+    "@angular/compiler-cli": {
+      "typescript": "next"
+    }
+  },
   "engines": {
     "node": ">=18.19.0",
     "npm": ">=8.0.0"
